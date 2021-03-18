@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test-all-chrome": "testcafe chrome ./page_model/test"
+    "test-all-chrome": "testcafe -c 3 chrome ./page_model/test"
   },
   "author": "oscarivan.sa",
   "license": "ISC"
