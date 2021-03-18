@@ -1,0 +1,11 @@
+{
+  "name": "saucedemo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test-all-chrome": "testcafe chrome ./page_model/test"
+  },
+  "author": "oscarivan.sa",
+  "license": "ISC"
+}
