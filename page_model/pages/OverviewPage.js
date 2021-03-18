@@ -1,10 +1,10 @@
 import {Selector, t} from 'testcafe'
 
-class ShoppingCartPage{
+class OverviewPage{
     constructor(){
-        this.lblCartTitle = Selector('div.subheader')
+        this.lblPageTitle = Selector('.subheader').withText('Checkout: Overview')
         this.lblProductName = Selector('.inventory_item_name')
-        this.btnCheckout = Selector('.checkout_button')
+        this.btnFinish = Selector('.btn_action')
     }
 
     async validateProduct(productName){
@@ -12,4 +12,4 @@ class ShoppingCartPage{
     }
   }
   
-  export default new ShoppingCartPage()
+  export default new OverviewPage()

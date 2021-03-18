@@ -8,3 +8,9 @@ export const CREDENTIALS = {
         PASSWORD: 'wrong_password'
     }
 }
+
+export const USERDATA = {
+    FIRSTNAME: 'Ivan',
+    LASTNAME: 'Sanchez',
+    ZIPCODE: '03541'
+}
